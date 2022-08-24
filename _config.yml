@@ -1,0 +1,16 @@
+url: https://thewhiteh4t.github.io
+author: thewhiteh4t
+layouts_dir: _layouts
+paginate: 6
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-feed
