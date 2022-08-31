@@ -1,0 +1,23 @@
+url: https://anirudddh.github.io
+title: Aniruddh Blog's
+author: Aniruddh
+email: aniruddhashindeofficial@gmail.com
+layouts_dir: _layouts
+paginate: 6
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-postcss
+
+postcss:
+  cache: false

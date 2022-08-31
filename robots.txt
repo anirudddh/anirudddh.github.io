@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin
+Disallow: /feed.xml
+Disallow: /*.json
+Disallow: /*.js
+
+Sitemap: https://anirudddh.github.io/sitemap.xml
