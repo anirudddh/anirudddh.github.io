@@ -1,5 +1,5 @@
 var i = 0;
-var txt = "thewhiteh4t's blog";
+var txt = "Aniruddh blog's";
 var speed = 80;
 var visible = true;
 
